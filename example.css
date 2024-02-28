@@ -4,6 +4,10 @@ body {
   padding: 0;
 }
 
+h2 {
+  font-size: medium;
+};
+
 /* Container for the form */
 .form-container {
   width: 500px;
@@ -64,11 +68,12 @@ input[type="date"]::placeholder {
 
 
 /* Button styles */
-button {
+button.btn {
   display: inline-block;
   padding: 10px 20px;
   border: none;
   border-radius: 5px;
+  background-image: none;
   background-color: #f56523; /* Orange color */
   color: #fff; /* White color */
   font-size: 16px;
@@ -79,7 +84,7 @@ button {
 }
 
 /* Button styles on hover */
-button:hover {
+button.btn:hover {
   filter: drop-shadow(-5px 10px 0px #000000);
   background-color: #f56523; /* Slightly darker orange on hover */
 }
